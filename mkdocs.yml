@@ -29,6 +29,8 @@ markdown_extensions:
     - pymdownx.tasklist:
         custom_checkbox: true
 plugins:
-    - social
+    - social:
+        cards_layout: default/variant
     - privacy
     - search
+    - offline
